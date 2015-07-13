@@ -11,11 +11,11 @@ There are a couple solutions out there for how to do this already, but none that
 
 ## Usage
 
-The most basic use is to do an `npm install` and then:
+The most basic use is to do an `npm install reandom` and then:
 
 ```javascript
 var Reandom = require('reandom');
-var myRandomSring = Reandom.generate();
+var myRandomSring = Reandom.generate(); // the string!
 ```
 
 ### Setting the length of the word
@@ -33,6 +33,7 @@ Note that due to the fact that the words are generated in the pattern of consona
 ```javascript
 var Reandom = require('reandom');
 
+// let's generate a couple strings to blacklist
 var string1 = Reandom.generate();
 var string2 = Reandom.generate();
 var string3 = Reandom.generate();

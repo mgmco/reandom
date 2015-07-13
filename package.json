@@ -1,6 +1,6 @@
 {
   "name": "reandom",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate a random human-readable string (aka a \"reandom\" string)",
   "main": "index.js",
   "files": [

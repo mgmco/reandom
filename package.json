@@ -1,0 +1,35 @@
+{
+  "name": "reandom",
+  "version": "0.0.1",
+  "description": "Generate a random human-readable string (aka a \"reandom\" string)",
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "lib",
+    "test"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mgmco/reandom.git"
+  },
+  "keywords": [
+    "random",
+    "string",
+    "human",
+    "readable"
+  ],
+  "author": "Mike Timofiiv (http://fiiv.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mgmco/reandom/issues"
+  },
+  "homepage": "https://github.com/mgmco/reandom#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
